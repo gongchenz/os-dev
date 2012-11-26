@@ -1,0 +1,20 @@
+ï»¿format:
+	/* ‚±‚ÌƒZƒNƒVƒ‡ƒ“‚ÅƒŠƒ“ƒN‚Ì•ûj‚ğ‹Lq */
+	code(align:1, logic:0x48,      file:0x48);
+	data(align:4, logic:stack_end, file:code_end);
+
+file:
+	/* ‚±‚ÌƒZƒNƒVƒ‡ƒ“‚ÅƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚É‘‚«‚«‚ê‚È‚©‚Á‚½
+		.objƒtƒ@ƒCƒ‹A.libƒtƒ@ƒCƒ‹‚ğ‹LÚ */
+	/* ‚È‚¨A‚±‚ÌƒZƒNƒVƒ‡ƒ“‚Íƒtƒ‹ƒpƒX‚Å‘‚¢‚Ä‚à‚æ‚¢B */
+	/* —áF  c:/osask/gg00libc.lib;  */
+	../z_tools/guigui00/gg00libc.lib;
+	../z_tools/guigui00/golibc.lib;
+
+label:
+	/* •K‚¸ƒŠƒ“ƒN‚µ‚È‚¯‚ê‚Î‚¢‚¯‚È‚¢ƒ‰ƒxƒ‹‚ğw’è */
+	/* ƒGƒ“ƒgƒŠƒ|ƒCƒ“ƒg‚ğw’è‚·‚ê‚Î‚¢‚¢‚Æv‚Á‚Ä‚­‚¾‚³‚¢ */
+	_main;
+
+
+	/* ã‹L3ƒZƒNƒVƒ‡ƒ“‚Ì‡˜‚Í“ü‚ê‘Ö‚¦‚Ä‚Í‚¢‚¯‚Ü‚¹‚ñ! */
