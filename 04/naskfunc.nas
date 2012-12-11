@@ -86,3 +86,4 @@ _write_mem8:	; void write_mem8(int addr, int data)
 		MOV		AL,[ESP+8]
 		MOV		[ECX],AL
 		RET
+
